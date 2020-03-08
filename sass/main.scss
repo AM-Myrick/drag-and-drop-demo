@@ -1,0 +1,143 @@
+// background patterns taken from https://leaverou.github.io/css3patterns/#
+body {
+  background-color: black;
+  background-image: radial-gradient(
+      white,
+      rgba(255, 255, 255, 0.2) 2px,
+      transparent 40px
+    ),
+    radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+    radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.1) 2px,
+      transparent 30px
+    );
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  display: flex;
+  flex-wrap: wrap;
+
+  div.icon-wrapper {
+    width: 80px;
+    margin-left: calc(25% - 40px);
+    margin-right: calc(25% - 40px);
+    margin-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @media (min-width: 500px) {
+      margin-left: calc(12.5% - 40px);
+      margin-right: calc(12.5% - 40px);
+    }
+
+    @media (min-width: 1000px) {
+      margin-left: calc(8.33% - 40px);
+      margin-right: calc(8.33% - 40px);
+    }
+
+    div.icon-styles {
+      background-size: 80px;
+      width: 80px;
+      height: 80px;
+    }
+
+    div.select-background {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 1px solid #00a0e2;
+    }
+
+    p {
+      color: white;
+    }
+  }
+}
+
+.starry-night {
+  background-color: black;
+  background-image: radial-gradient(
+      white,
+      rgba(255, 255, 255, 0.2) 2px,
+      transparent 40px
+    ),
+    radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+    radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.1) 2px,
+      transparent 30px
+    );
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.yin-yang {
+  background: radial-gradient(
+        circle at 50% 59%,
+        #d2caab 3%,
+        #364e27 4%,
+        #364e27 11%,
+        rgba(54, 78, 39, 0) 12%,
+        rgba(54, 78, 39, 0)
+      )
+      50px 0,
+    radial-gradient(
+        circle at 50% 41%,
+        #364e27 3%,
+        #d2caab 4%,
+        #d2caab 11%,
+        rgba(210, 202, 171, 0) 12%,
+        rgba(210, 202, 171, 0)
+      )
+      50px 0,
+    radial-gradient(
+        circle at 50% 59%,
+        #d2caab 3%,
+        #364e27 4%,
+        #364e27 11%,
+        rgba(54, 78, 39, 0) 12%,
+        rgba(54, 78, 39, 0)
+      )
+      0 50px,
+    radial-gradient(
+        circle at 50% 41%,
+        #364e27 3%,
+        #d2caab 4%,
+        #d2caab 11%,
+        rgba(210, 202, 171, 0) 12%,
+        rgba(210, 202, 171, 0)
+      )
+      0 50px,
+    radial-gradient(circle at 100% 50%, #d2caab 16%, rgba(210, 202, 171, 0) 17%),
+    radial-gradient(circle at 0% 50%, #364e27 16%, rgba(54, 78, 39, 0) 17%),
+    radial-gradient(circle at 100% 50%, #d2caab 16%, rgba(210, 202, 171, 0) 17%)
+      50px 50px,
+    radial-gradient(circle at 0% 50%, #364e27 16%, rgba(54, 78, 39, 0) 17%) 50px
+      50px;
+  background-color: #63773f;
+  background-size: 100px 100px;
+}
+
+.polka-dot {
+  background-color: #001;
+  background-image: radial-gradient(white 15%, transparent 16%),
+    radial-gradient(white 15%, transparent 16%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.cicada-stripes {
+  background-color: #026873;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.07) 50%,
+      transparent 50%
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-size: 13px, 29px, 37px, 53px;
+}

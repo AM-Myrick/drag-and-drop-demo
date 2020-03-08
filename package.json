@@ -1,0 +1,15 @@
+{
+  "name": "smartphone-project",
+  "version": "1.0.0",
+  "description": "A simple smartphone screen copy with desktop drag and drop.",
+  "scripts": {
+    "watch-sass": "node-sass sass/main.scss css/index.css --watch",
+    "compile-sass": "node-sass sass/main.scss css/index.css"
+  },
+  "keywords": [],
+  "author": "Andre Myrick",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
